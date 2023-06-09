@@ -1,0 +1,35 @@
+{
+  "name": "miguelsoft",
+  "version": "1.0.0",
+  "description": "repaso node",
+  "main": "app/index.js",
+  "scripts": {
+    "dev": "set NODE_ENV=developer& nodemon app/index.js --exec babel-node",
+    "qa": "set NODE_ENV=qa& nodemon app/index.js --exec babel-node",
+    "start": "set NODE_ENV=production& nodemon app/index.js --exec babel-node"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^3.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "nodemon": "^2.0.21"
+  }
+}
